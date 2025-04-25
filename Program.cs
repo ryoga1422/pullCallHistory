@@ -117,7 +117,7 @@ namespace pullCallHistory
         private void RunReports(DateTime reportDate)
         {
             
-            string dbCS = @"server=10.10.60.23;userid=drpepper;password=M78gV=EN7!F$u!MS;database=TPS";
+            string dbCS = @"server=10.10.60.23;userid=drpepper;password=*************;database=TPS";
             
             using (MySqlConnection myCon = new MySqlConnection(dbCS)) {
                 myCon.Open();
